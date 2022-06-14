@@ -11,9 +11,7 @@ function HomePage(props)
   
    const joke_data = props['data']; 
    const image_path =  "/images/jokes/" +  handleImages(props['image_data']['images']);
-   //const images = props['image_data']['images'];
-   //const index = Math.floor(Math.random() * images.length);
-   
+      
   return(
     <div className={classes.item}>
       <div className={classes.content}>
